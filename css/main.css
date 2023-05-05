@@ -1179,23 +1179,30 @@ body {
   margin: -275px 0 0 21px;
   }
 
+.diagnostics__mobile-photo { 
+  display: none;
+  margin: 0 0 30px;
+  }
+
 .diagnostics__info { 
   display: none;
   }
 
 .diagnostics__item { 
   display: flex;
+  align-items: center;
   }
 
 .diagnostics__icon { 
   flex-shrink: 0;
   margin: 0 20px 0 0;
+  width: 97px;
   }
 
 .diagnostics__text { 
   display: block;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 26px;
   }
 
 /* video-report */
@@ -2360,6 +2367,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0 30px;
   padding: 30px 60px;
   background: #fff;
   border-radius: 20px;

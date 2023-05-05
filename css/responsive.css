@@ -157,6 +157,18 @@
   line-height: 16px;
   }
 
+.access__photo { 
+  right: -700px;
+  }
+
+.access { 
+  padding: 0;
+  }
+
+.access__container { 
+  border-radius: 0px;
+  }
+
 .success { 
   padding: 0;
   }
@@ -251,6 +263,10 @@
 .car-selection p { 
   font-size: 20px;
   line-height: 26px;
+  }
+
+.steps-panel__in { 
+  padding: 30px;
   }
 
 }
@@ -356,6 +372,10 @@
   padding: 70px 0;
   }
 
+.experience { 
+  padding: 70px 0;
+  }
+
 .success__container { 
   padding: 0;
   }
@@ -366,6 +386,35 @@
 
 .video-reviews { 
   padding: 0 0 70px;
+  }
+
+.request-info { 
+  padding: 0 0 70px;
+  }
+
+.access { 
+  margin: 0 0 90px;
+  }
+
+.access__form { 
+  margin: 0 auto 50px;
+  border-radius: 15px;
+  }
+
+.access__photo { 
+  display: none;
+  }
+
+.video-report { 
+  padding: 0 0 70px;
+  }
+
+.video-report__catalog { 
+  gap: 20px 20px;
+  }
+
+.video-report__photo img { 
+  border-radius: 15px;
   }
 
 .success__content { 
@@ -398,10 +447,6 @@
 
 .question { 
   padding: 70px 0;
-  }
-
-.video-reviews { 
-  padding: 0 0 50px;
   }
 
 .video-reviews_changed { 
@@ -441,6 +486,44 @@
 
 .cursor-icon { 
   display: block;
+  }
+
+.logistics-info { 
+  display: flex;
+  gap: 0 15px;
+  margin: 0 -15px;
+  padding: 0 15px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+
+.logistics-info::-webkit-scrollbar { 
+  width: 0; 
+  height: 0;
+  background: transparent;
+  }
+
+.logistics-info__item { 
+  padding: 25px;
+  width: 340px;
+  min-width: 340px;
+  height: auto;
+  white-space: normal;
+  border-radius: 15px;
+  }
+
+.logistics-info__item:nth-child(2n) { 
+  margin: 0;
+  }
+
+.logistics-info__title-small br { 
+  display: none;
+  }
+
+.logistics-info__item p br { 
+  display: none;
   }
 
 .video-reviews__catalog { 
@@ -553,6 +636,10 @@
   padding: 50px 50px 100px;
   }
 
+.access__container { 
+  padding: 70px 15px 0;
+  }
+
 .hystmodal__wrap { 
   padding: 0 30px;
   }
@@ -572,6 +659,14 @@
   margin: 0 0 15px;
   font-size: 20px;
   line-height: 24px;
+  }
+
+.choosing-car { 
+  padding: 0 0 120px;
+  }
+
+.request-info__diagnostics { 
+  margin: -175px 0 0 0;
   }
 
 }
@@ -603,6 +698,18 @@
 .car-selection p { 
   font-size: 18px;
   line-height: 22px;
+  }
+
+.steps-panel__in { 
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0;
+  text-align: center;
+  }
+
+.video-report__btn { 
+  padding: 25px 30px;
+  font-size: 16px;
   }
 
 }
@@ -662,6 +769,16 @@
   right: -100px;
   }
 
+.steps-panel { 
+  padding: 5px;
+  max-width: 680px;
+  border-radius: 10px;
+  }
+
+.steps-panel__in { 
+  border-radius: 10px;
+  }
+
 .footer__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -675,6 +792,19 @@
 .parameters-info__photo { 
   width: 440px;
   bottom: 50px;
+  }
+
+.video-report__btn { 
+  padding: 15px 20px;
+  font-size: 14px;
+  }
+
+.btn_play:before { 
+  margin: -2px 10px 0 0;
+  }
+
+.request-info__diagnostics { 
+  margin: -100px 0 0;
   }
 
 }
@@ -880,6 +1010,73 @@ p {
   line-height: 22px;
   }
 
+.access__form { 
+  max-width: 100%;
+  }
+
+.steps-panel__in { 
+  gap: 0;
+  }
+
+.steps-panel__title-middle img { 
+  width: 26px;
+  }
+
+.access__phone { 
+  font-size: 20px;
+  }
+
+.access__mail { 
+  font-size: 18px;
+  }
+
+.video-report__catalog { 
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+.video-report__item { 
+  height: 260px;
+  }
+
+.video-report__btn { 
+  width: auto;
+  }
+
+.choosing-car { 
+  padding: 0 0 70px;
+  }
+
+.request-info__title { 
+  text-align: center;
+  }
+
+.request-info__title br { 
+  display: none;
+  }
+
+.request-info__sub-title { 
+  margin: 0 0 50px;
+  text-align: center;
+  }
+
+.request-info__diagnostics { 
+  margin: 0;
+  }
+
+.diagnostics__photo { 
+  display: none;
+  }
+
+.diagnostics__mobile-photo { 
+  display: block;
+  }
+
+.diagnostics__info { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 20px;
+  }
+
 }
 
 @media (max-width: 720px) {
@@ -997,6 +1194,18 @@ p {
   padding: 50px 0;
   }
 
+.video-reviews { 
+  padding: 0 0 50px;
+  }
+
+.choosing-car { 
+  padding: 0 0 50px;
+  }
+
+.access__container { 
+  padding: 50px 15px 0;
+  }
+
 .success__title { 
   font-size: 36px;
   line-height: 46px;
@@ -1048,17 +1257,25 @@ p {
   line-height: 24px;
   }
 
-.question { 
+.video-reviews_changed { 
+  padding: 50px 0 0;
+  }
+
+.experience { 
   padding: 50px 0;
   }
 
-.video-reviews_changed { 
-  padding: 50px 0 0;
+.question { 
+  padding: 50px 0;
   }
 
 .question__phone span { 
   font-size: 20px;
   line-height: 24px;
+  }
+
+.video-report { 
+  padding: 0 0 50px;
   }
 
 .offices-info { 
@@ -1077,6 +1294,10 @@ p {
 .car-selection p { 
   font-size: 16px;
   line-height: 20px;
+  }
+
+.access__form { 
+  padding: 40px 30px;
   }
 
 .scheme-form { 
@@ -1103,6 +1324,19 @@ p {
   font-size: 11px;
   }
 
+.request-info { 
+  padding: 0 0 50px;
+  }
+
+.diagnostics__icon { 
+  margin: 0 10px 0 0;
+  }
+
+.diagnostics__text { 
+  font-size: 14px;
+  line-height: 20px;
+  }
+
 }
 
 @media (max-width: 520px) {
@@ -1118,6 +1352,19 @@ p {
 
 .sub-title br { 
   display: none;
+  }
+
+.diagnostics__info { 
+  gap: 10px 10px;
+  }
+
+.diagnostics__icon { 
+  width: 50px;
+  }
+
+.diagnostics__text { 
+  font-size: 12px;
+  line-height: 18px;
   }
 
 }
@@ -1181,6 +1428,21 @@ input[type="tel"] {
   line-height: 18px;
   }
 
+.selection-delivery__title { 
+  font-size: 24px;
+  line-height: 34px;
+  }
+
+.selection-delivery__sub-title { 
+  margin: 0 0 30px;
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+.selection-delivery__sub-title img { 
+  width: 37px;  
+  }
+
 .success p br { 
   display: none;
   }
@@ -1229,6 +1491,10 @@ input[type="tel"] {
 
 .car-selection p br { 
   display: none;
+  }
+
+.steps-panel__in { 
+  padding: 30px 15px;
   }
 
 .footer__link { 
@@ -1317,6 +1583,11 @@ input[type="tel"] {
   line-height: 22px;
   }
 
+.diagnostics__text { 
+  font-size: 10px;
+  line-height: 16px;
+  }
+
 }
 
 @media (max-width: 400px) { 
@@ -1347,6 +1618,12 @@ input[type="password"] {
 
 .selection-delivery__small-text br { 
   display: none;
+  }
+
+.logistics-info__item { 
+  padding: 15px;
+  width: 260px;
+  min-width: 260px;
   }
 
 .video-reviews__item { 
@@ -1424,24 +1701,9 @@ input[type="password"] {
 
 @media (max-width: 370px) {
 
-.selection-delivery__title { 
-  font-size: 24px;
-  line-height: 34px;
-  }
-
 .success__title {
   font-size: 24px;
   line-height: 34px;
-  }
-
-.selection-delivery__sub-title { 
-  margin: 0 0 30px;
-  font-size: 18px;
-  line-height: 24px;
-  }
-
-.selection-delivery__sub-title img { 
-  width: 37px;  
   }
 
 .parameters { 
@@ -1461,8 +1723,20 @@ input[type="password"] {
   font-size: 12px;
   }
 
+.access__form { 
+  padding: 30px 20px;
+  }
+
 .scheme-form { 
   padding: 20px;
+  }
+
+.video-report__item { 
+  height: 200px;
+  }
+
+.video-report__btn { 
+  padding: 17px 15px;
   }
 
 }
@@ -1475,6 +1749,22 @@ input[type="password"] {
 
 .logo__text { 
   font-size: 8px;
+  }
+
+.steps-panel__btn { 
+  padding: 13px 15px;
+  }
+
+.request-info__sub-title { 
+  margin: 0 0 30px;
+  }
+
+.diagnostics__icon { 
+  width: 40px;
+  }
+
+.diagnostics__text { 
+  line-height: 14px;
   }
 
 }
