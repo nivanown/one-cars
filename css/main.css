@@ -843,6 +843,7 @@ body {
 .advantages__in { 
   display: flex;
   justify-content: space-between;
+  gap: 0 20px;
   padding: 35px 60px;
   background: #fff;
   border-radius: 20px;
