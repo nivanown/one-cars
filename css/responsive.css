@@ -1,3 +1,15 @@
+@media (max-width: 1500px) { 
+
+.consultation-form__photo { 
+  width: 1600px;
+  }
+
+.consultation-form__photo img { 
+  width: 100%;
+  }
+
+}
+
 @media (max-width: 1400px) {
 
 .one-cars-info__container { 
@@ -25,6 +37,10 @@
 
 .service { 
   padding: 0;
+  }
+
+.consultation-form__photo { 
+  width: 1500px;
   }
 
 }
@@ -169,6 +185,23 @@
   border-radius: 0px;
   }
 
+.questions { 
+  padding: 0;
+  }
+
+.questions__container { 
+  border-radius: 0;
+  }
+
+.step { 
+  padding: 54px 50px 70px;
+  }
+
+.image-type__name { 
+  font-size: 16px;
+  line-height: 26px;
+  }
+
 .success { 
   padding: 0;
   }
@@ -197,6 +230,14 @@
 .development__text { 
   font-size: 14px;
   line-height: 22px;
+  }
+
+.questions__title br { 
+  display: none;
+  }
+
+.questions__content { 
+  padding: 0;
   }
 
 .footer__link { 
@@ -246,6 +287,32 @@
   padding: 35px;
   }
 
+.text-type { 
+  gap: 20px 20px;
+  }
+
+.text-type__item label { 
+  padding: 15px;
+  min-height: 80px;
+  border-radius: 10px;
+  }
+
+.text-type__check { 
+  margin: 0 15px 0 0;
+  width: 40px;
+  height: 40px;
+  }
+
+.text-type__info { 
+  font-size: 16px;
+  line-height: 22px;
+  }
+
+.consultation-form__photo { 
+  width: 1400px;
+  bottom: -144px;
+  }
+
 }
 
 @media (max-width: 1150px) {
@@ -267,6 +334,16 @@
 
 .steps-panel__in { 
   padding: 30px;
+  }
+
+.image-type__name { 
+  font-size: 14px;
+  line-height: 16px;
+  }
+
+.consultation-form__photo { 
+  width: 1300px;
+  bottom: -100px;
   }
 
 }
@@ -484,6 +561,11 @@
   line-height: 34px;
   }
 
+.small-sub-title { 
+  font-size: 20px;
+  line-height: 30px;
+  }
+
 .cursor-icon { 
   display: block;
   }
@@ -669,6 +751,33 @@
   margin: -175px 0 0 0;
   }
 
+.step { 
+  border-radius: 15px;
+  }
+
+.image-type__photo img { 
+  border-radius: 15px;
+  }
+
+.questions__container { 
+  padding-top: 70px;
+  padding-bottom: 70px;
+  }
+
+.percent__icon { 
+  width: 80px;
+  }
+
+.percent__text { 
+  font-size: 24px;
+  line-height: 30px;
+  }
+
+.consultation-form__info-text { 
+  font-size: 16px;
+  line-height: 24px;
+  }
+
 }
 
 @media (max-width: 1000px) {
@@ -710,6 +819,31 @@
 .video-report__btn { 
   padding: 25px 30px;
   font-size: 16px;
+  }
+
+.step { 
+  padding: 30px;
+  }
+
+.image-type { 
+  grid-template-columns: repeat(4, 1fr);
+  }
+
+.text-type { 
+  gap: 10px 10px;
+  }
+
+.text-type__item label { 
+  border-radius: 5px;
+  }
+
+.text-type__info { 
+  font-size: 14px;
+  line-height: 16px;
+  }
+
+.consultation-form__photo { 
+  width: 1200px;
   }
 
 }
@@ -779,6 +913,48 @@
   border-radius: 10px;
   }
 
+.image-type_four-col .image-type__photo { 
+  height: 160px;
+  }
+
+.image-type__name br { 
+  display: none;
+  }
+
+.consultation-form__info-text { 
+  display: none;
+  }
+
+.consultation-form__photo { 
+  display: none;
+  }
+
+.consultation-form__catalog-widget { 
+  display: none;
+  }
+
+.consultation-form__col {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  }
+
+.consultation-form__title-middle { 
+  text-align: center;
+  }
+
+.consultation-form__title-middle br { 
+  display: none;
+  }
+
+.small-sub-title { 
+  text-align: center;
+  }
+
+.small-sub-title br { 
+  display: none;
+  }
+
 .footer__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -805,6 +981,14 @@
 
 .request-info__diagnostics { 
   margin: -100px 0 0;
+  }
+
+.image-type { 
+  grid-template-columns: repeat(3, 1fr);
+  }
+
+.text-type { 
+  grid-template-columns: repeat(2, 1fr);
   }
 
 }
@@ -1077,6 +1261,24 @@ p {
   gap: 20px 20px;
   }
 
+.questions__title-middle br { 
+  display: none;
+  }
+
+.image-type { 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 10px;
+  }
+
+.notification { 
+  top: 95px;
+  }
+
+.consultation-form__list { 
+  max-width: 100%;
+  width: 100%;
+  }
+
 }
 
 @media (max-width: 720px) {
@@ -1206,6 +1408,11 @@ p {
   padding: 50px 15px 0;
   }
 
+.questions__container { 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  }
+
 .success__title { 
   font-size: 36px;
   line-height: 46px;
@@ -1255,6 +1462,14 @@ p {
 .sub-title {
   font-size: 16px;
   line-height: 24px;
+  }
+
+.questions__title-middle small { 
+  font-size: 14px;
+  }
+
+.step__text { 
+  font-size: 14px;
   }
 
 .video-reviews_changed { 
@@ -1308,6 +1523,11 @@ p {
   font-size: 16px;
   }
 
+.small-sub-title { 
+  font-size: 16px;
+  line-height: 20px;
+  }
+
 .footer { 
   padding: 20px 0 15px;
   }
@@ -1335,6 +1555,49 @@ p {
 .diagnostics__text { 
   font-size: 14px;
   line-height: 20px;
+  }
+
+.image-type__engine-sticker { 
+  top: 5px;
+  right: 5px;
+  }
+
+.image-type__engine-sticker { 
+  width: 30px;
+  }
+
+.image-type__engine-sticker_big-size { 
+  width: 52px;
+  }
+
+.image-type__flag-sticker { 
+  width: 40px;
+  top: 5px;
+  right: 5px;
+  }
+
+.image-type__flag-sticker_position-left { 
+  top: 5px;
+  left: 5px;
+  right: auto;
+  }
+
+.image-type__flag-sticker_small-size { 
+  width: 30px;
+  }
+
+.text-type__item label { 
+  padding: 10px;
+  min-height: 70px;
+  }
+
+.text-type__check { 
+  margin: 0 10px 0 0;
+  }
+
+.text-type__info { 
+  font-size: 12px;
+  line-height: 14px;
   }
 
 }
@@ -1495,6 +1758,76 @@ input[type="tel"] {
 
 .steps-panel__in { 
   padding: 30px 15px;
+  }
+
+.step { 
+  padding: 15px;
+  }
+
+.progress-bar { 
+  margin-bottom: 30px;
+  height: 12px;
+  }
+
+.progress-bar__line { 
+  height: 12px;
+  }
+
+.image-type { 
+  margin: 0 0 30px;
+  }
+
+.image-type__photo { 
+  height: 120px;
+  }
+
+.image-type__check { 
+  width: 40px;
+  height: 40px;
+  }
+
+.image-type__name { 
+  font-size: 12px;
+  line-height: 14px;
+  }
+
+.notification { 
+  padding: 10px;
+  width: 200px;
+  top: 85px;
+  border-radius: 5px;
+  }
+
+.notification__text { 
+  font-size: 10px;
+  line-height: 14px;
+  }
+
+.image-type_four-col .image-type__photo { 
+  height: 120px;
+  }
+
+.text-type { 
+  margin: 0 0 30px;
+  grid-template-columns: repeat(1, 1fr);
+  }
+
+.text-type__info br { 
+  display: none;
+  }
+
+.step__percent { 
+  margin: 0 0 20px;
+  }
+
+.percent__icon { 
+  margin: 0 15px 0 0;
+  width: 60px;
+  }
+
+.percent__text { 
+  font-size: 18px;
+  line-height: 22px;
   }
 
 .footer__link { 
@@ -1765,6 +2098,10 @@ input[type="password"] {
 
 .diagnostics__text { 
   line-height: 14px;
+  }
+
+.image-type__photo { 
+  height: 90px;
   }
 
 }
