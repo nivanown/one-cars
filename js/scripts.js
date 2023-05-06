@@ -18,9 +18,14 @@ var sliderThumbs = new Swiper(".models__nav", {
     mousewheel: true,
     breakpoints: {
         0: {
+            slidesPerView: "auto",
             direction: 'horizontal',
         },
-        768: {
+        680: {
+            slidesPerView: 3,
+            direction: 'horizontal',
+        },
+        1050: {
             direction: 'vertical',
         }
     }
